@@ -1,0 +1,13 @@
+region = "ap-south-1"
+subnet_ids = ["subnet-0579964b47796f8fd","subnet-064453a030d423413"]
+allocated_storage = 20
+db_engine = "postgres"
+db_engine_version = "15.14"
+db_instance_class = "db.t4g.micro"
+db_name = "mydb"
+db_username = "palu"
+db_password = "root123456"
+db_parameter_group_name = "default.postgres15"
+backup_retention_period = 0
+backup_window = "03:00-04:00"
+maintenance_window = "Sun:05:00-Sun:06:00"
